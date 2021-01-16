@@ -1,0 +1,97 @@
+body{
+    background-color:lightseagreen;
+}
+header{ 
+    height: 50px; 
+    color: white;
+    list-style-type: none;
+    background-color:rgb(216,216,221) ;
+    display: flex;
+    position:fixed;
+    flex-direction: row;
+    font-weight: bold;
+    width: 100%;
+    padding: 1.5em;
+    margin: 0em;
+}
+.header-item >li >a{
+    padding: 20px;
+}
+.home{
+    padding-top: 90px; 
+    width: 100%;
+    /* text-align: center;
+    justify-content: center;*/
+}
+.home-email{
+    font-weight: bold;
+    
+}
+.home > img{
+    width: 120%;
+}
+.About{
+    background-color: rgb(215,216,221);
+}
+.About-heading{
+    text-align: center;
+    padding: 0.8em;
+}
+.brief-description{
+    padding: 0 1em 2em;
+    text-align: justify;
+    margin-bottom: 2em;
+}
+.skills{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.skills >li{
+    width: 10%;
+    padding: 1em;
+    background-color: white;
+    margin: 2em;
+}
+.Hobbies{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.Hobbies >li{
+    width: 10%;
+    padding: 1em;
+    background-color: white;
+    margin: 2em;
+}
+.contact{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.contact >li{
+    width: 15%;
+    padding: 1em;
+    background-color: white;
+    margin: 2em;
+}
+.projects{
+display: flex;
+list-style-type: none;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+
+}
+.projects > li{
+    width: 15%;
+    padding: 1em;
+    background-color: white;
+    margin: 2em;
+}
